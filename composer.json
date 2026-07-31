@@ -1,0 +1,24 @@
+{
+    "require": {
+        "yiisoft/yii2": "~2.0.55",
+        "yiisoft/yii2-bootstrap5": "^2.0",
+        "yiisoft/yii2-symfonymailer": "^4.0",
+        "symfony/console": "7.4.15",
+        "symfony/var-dumper": "7.4.15"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "^2.1",
+        "yiisoft/yii2-gii": "^2.2"
+    }
+}
